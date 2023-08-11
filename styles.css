@@ -1,0 +1,53 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-color:#000000;
+}
+
+h1{
+    color: #EEEEEE;
+    font-size: 50px;
+    font-family: 'Audrey 1.0', sans-serif;
+}
+h2{
+    color: #EEEEEE;
+    font-size: 20px;
+    font-family: 'Audrey 1.0', sans-serif;
+}
+
+.title-box{
+    position: relative;
+    top: 30vh;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.modern-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #000000;
+    color: #4E4FEB;
+    border-radius: 8px;
+    border-color: #EEEEEE;
+    font-size: 26px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.modern-button:hover {
+    background-color: #068FFF;
+}
+
+
+@font-face {
+    font-family: 'Audrey 1.0';
+    src: url('Audrey 1.0/Audrey-Normal.otf') format('woff2');
+    /* Add more font properties if needed */
+  }

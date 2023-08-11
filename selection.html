@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select 3 MOVIES?</title>
+    <link rel="stylesheet" href="selection-covers.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="banner">
+        <p>Select 3 Movies You Most Enjoyed</p>
+        <div class="button-container">
+            <button class="next-button" id="nextButton">Next</button>
+        </div>
+
+    </div>
+    <div class="content">
+        <div class="image-row">
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+        </div>
+        <div class="image-row">
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+        </div>
+    
+        <div class="image-row">
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+        </div>
+    
+        <div class="image-row">
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="sample.jpg" alt="Image 1">
+                <div class="description">Description 1</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const images = document.querySelectorAll('.image');
+        const nextButton = document.getElementById('nextButton');
+        let selectedImages = [];
+
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                if (selectedImages.includes(image)) {
+                    selectedImages = selectedImages.filter(selectedImage => selectedImage !== image);
+                    image.classList.remove('selected');
+                } else {
+                    if (selectedImages.length < 3) {
+                        selectedImages.push(image);
+                        image.classList.add('selected');
+                    }
+                }
+
+                nextButton.classList.toggle('show-button', selectedImages.length === 3);
+            });
+        });
+    </script>
+
+    <script>
+        const banner = document.querySelector('.banner');
+
+        window.addEventListener('scroll', () => {
+            const scrollPosition = window.scrollY;
+            const maxOpacity = 1; // Adjust as needed
+
+            // Calculate opacity based on scroll position
+            const opacity = 1 - (scrollPosition / 300); // You can adjust the divisor as needed
+
+            // Limit opacity to a minimum value
+            banner.style.opacity = opacity < maxOpacity ? opacity : maxOpacity;
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
