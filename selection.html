@@ -16,7 +16,7 @@
     <div class="content">
         <div class="image-row">
             <div class="image-container">
-                <img class="image" src="sample.jpg" alt="Image 1">
+                <img class="image" src="https://d294800yterbp.cloudfront.net/downslaced images/10_-_F44er6q_-_Big_Trouble_in_Little_China_20.jpg" alt="Image 1">
                 <div class="description">Description 1</div>
             </div>
             <div class="image-container">
@@ -128,20 +128,20 @@
         });
     </script>
 
-    <script>
-        const banner = document.querySelector('.banner');
+<script>
+    const banner = document.getElementById('banner');
 
-        window.addEventListener('scroll', () => {
-            const scrollPosition = window.scrollY;
-            const maxOpacity = 1; // Adjust as needed
+    window.addEventListener('scroll', () => {
+        const scrollPosition = window.scrollY;
+        const maxScroll = 100; // Adjust the scroll threshold as needed
 
-            // Calculate opacity based on scroll position
-            const opacity = 1 - (scrollPosition / 300); // You can adjust the divisor as needed
+        // Calculate opacity based on scroll position
+        const opacity = Math.min(1, scrollPosition / maxScroll);
 
-            // Limit opacity to a minimum value
-            banner.style.opacity = opacity < maxOpacity ? opacity : maxOpacity;
-        });
-    </script>
+        // Set the background color with adjusted opacity
+        banner.style.backgroundColor = `rgba(0, 0, 0, ${opacity})`;
+    });
+</script>
 </body>
 </html>
 

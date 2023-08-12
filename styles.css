@@ -9,6 +9,12 @@ h1{
     color: #EEEEEE;
     font-size: 50px;
     font-family: 'Audrey 1.0', sans-serif;
+    border: 2px solid #EEEEEE; 
+    padding-top: 20px; 
+    padding-bottom: 9px;
+    padding-left: 30px;
+    padding-right: 20px;
+    display: inline-block;
 }
 h2{
     color: #EEEEEE;
@@ -16,38 +22,48 @@ h2{
     font-family: 'Audrey 1.0', sans-serif;
 }
 
+p{
+    color: #EEEEEE;
+    font-size: 18px;
+    font-family: 'Audrey 1.0', sans-serif;
+}
+
+.sign-in-text {
+    margin-top: vh;
+    font-size: 16px;
+}
+
+.sign-in-text a {
+    color: #068FFF;
+    text-decoration: underline;
+}
+
 .title-box{
     position: relative;
     top: 30vh;
     text-align: center;
-}
-
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .modern-button {
     padding: 10px 20px;
-    border: none;
+    margin-top: 20px;
     background-color: #000000;
-    color: #4E4FEB;
-    border-radius: 8px;
-    border-color: #EEEEEE;
-    font-size: 26px;
+    color: #EEEEEE;
+    border-radius: 5px;
+    border-color: #FDB827;
+    background-color: #FDB827;
+    font-size: 32px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
 
 .modern-button:hover {
-    background-color: #068FFF;
+    background-color: #000000;
 }
-
 
 @font-face {
     font-family: 'Audrey 1.0';
     src: url('Audrey 1.0/Audrey-Normal.otf') format('woff2');
-    /* Add more font properties if needed */
-  }
+}
