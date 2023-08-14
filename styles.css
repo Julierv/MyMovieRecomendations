@@ -73,3 +73,17 @@ p{
     font-family: 'Audrey 1.0';
     src: url('Audrey 1.0/Audrey-Normal.otf') format('woff2');
 }
+
+@media screen and (max-width: 480px) {
+    h1{
+        color: #EEEEEE;
+        font-size: 40px;
+        font-family: 'Audrey 1.0', sans-serif;
+        border: 2px solid #EEEEEE; 
+        padding-top: 20px;
+        padding-bottom: 9px;
+        padding-left: 0px;
+        padding-right: 10px;
+        display: inline-block;
+    }
+}

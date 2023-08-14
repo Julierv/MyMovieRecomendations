@@ -15,10 +15,10 @@ body {
     display: none;
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: 6%;
     background-color: #FDB827;
     color: white;
-    padding: 18.4px 28px;
+    padding: 6% 6%;
     border-radius: 6px;
     border: none;
     cursor: pointer;
@@ -186,5 +186,13 @@ p{
     }
     50% {
         opacity: 0.9;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner {
+        padding-top: 3%;
+        text-align: left;
+        margin-left: 6%;
     }
 }
