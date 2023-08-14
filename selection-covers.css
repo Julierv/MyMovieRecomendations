@@ -15,10 +15,10 @@ body {
     display: none;
     position: absolute;
     top: 0px;
-    right: 6%;
+    right: 0%;
     background-color: #FDB827;
     color: white;
-    padding: 6% 6%;
+    padding: 1.37% 2%;
     border-radius: 6px;
     border: none;
     cursor: pointer;
@@ -74,7 +74,7 @@ body {
     position: absolute;
     width: 100%;
     text-align: center;
-    opacity: 0; /* Initially hide the description */
+    opacity: 0.9; /* Initially hide the description */
     transition: opacity 0.4s;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
@@ -198,5 +198,19 @@ p{
 
     .description {
         opacity: 1; /* Initially hide the description */
+    }
+    .next-button {
+        display: none;
+        position: absolute;
+        top: 0px;
+        right: 6%;
+        background-color: #FDB827;
+        color: white;
+        padding: 6% 6%;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        animation: blink 1.5s infinite; /* Add blinking animation */
+        font-family: 'Audrey 1.0', sans-serif;
     }
 }

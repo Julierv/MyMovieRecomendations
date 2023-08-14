@@ -2,10 +2,76 @@
 <html>
 <head>
     <title>Recommendations</title>
-    <link rel="stylesheet" href="selection-covers.css">
+    <link rel="stylesheet" href="recomendations.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+    </style>
 </head>
 <body>
-    <h2 style="font-size: 42px;">In progress...</h2>
+    <button class="next-button" id="nextButton" onclick="window.location.href='recomendation.html';">Next</button>
+    <div class="title-container"> <h3>Since You Enjoyed (-------------), Try ...</h3> </div>
+    <div class="content">
+        <div class="image-row">
+            <div class="image-container">
+                <img class="image" src="https://d294800yterbp.cloudfront.net/Imgur Album  /83_oppen.jpg" alt="Image 1">
+                <div class="description">
+                    <h3>Oppenheimer</h3>
+                    <h2>Rating: 7.8/10</h2>
+                    <h2>% match</h2>
+                </div>
+                <div class="description2">
+                    <h2>2023</h2>
+                    <p>Synopsis</p>
+                    <p>The story of American scientist, J. Robert Oppenheimer, and his role in the development of the atomic bomb.</p>
+                    <p>Director</p>
+                    <p>Christopher Nolan</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="https://d294800yterbp.cloudfront.net/Imgur Album  /82_blade.jpeg" alt="Image 1">
+                <div class="description">
+                    <h2>Blade Runner 2049</h2>
+                    <h2>Rating: 7.8/10</h2>
+                    <h2>% match</h2>
+                </div>
+                <div class="description2">
+                    <h2>2017</h2>
+                    <p>Synopsis</p>
+                    <p>Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.</p>
+                    <p>Director</p>
+                    <p>Denis Villeneuve</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="image" src="https://d294800yterbp.cloudfront.net/Imgur Album  /16 - P01BboK - Diamonds Are Forever.jpg" alt="Image 1">
+                <div class="description">
+                    <h3>Diamonds Are Forever</h3>
+                    <h2>Rating: 7.8/10</h2>
+                    <h2>% match</h2>
+                </div>
+                <div class="description2">
+                    <h2>1971</h2>
+                    <p>Synopsis</p>
+                    <p>A diamond smuggling investigation leads James Bond to Las Vegas, where he uncovers an evil plot involving a rich business tycoon.</p>
+                    <p>Director</p>
+                    <p>Guy Hamilton</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const imageContainers = document.querySelectorAll('.image-container');
+
+        imageContainers.forEach(container => {
+            const description = container.querySelector('.description2');
+            
+            
+            container.addEventListener('click', () => {
+                container.classList.toggle('active');
+            });
+        });
+    </script>
+    
 </body>
 </html>
