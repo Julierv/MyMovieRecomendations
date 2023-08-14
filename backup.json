@@ -1,0 +1,666 @@
+[{
+  "_id": {
+    "$oid": "64d6f1e93e599088f6fcf723"
+  },
+  "name": "Big Trouble in Little China",
+  "director": "John Carpenter",
+  "year": 1986,
+  "rating": 7.2,
+  "synopsis": "A rough-and-tumble trucker and his side kick face off with an ancient sorcerer in a supernatural battle beneath Chinatown.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/10_-_F44er6q_-_Big_Trouble_in_Little_China_20.jpg",
+  "big_url": "https://d294800yterbp.cloudfront.net/Imgur Album  /10 - F44er6q - Big Trouble in Little China.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f3613e599088f6fcf725"
+  },
+  "name": "Apocalypse Now",
+  "director": "Francis Ford Coppola",
+  "year": 1979,
+  "rating": 8.4,
+  "synopsis": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/4_-_ISwlCdR_-_Apocalypse_Now_20.jpg",
+  "big_url": "https://d294800yterbp.cloudfront.net/Imgur Album  /4 - ISwlCdR - Apocalypse Now.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f3b13e599088f6fcf726"
+  },
+  "name": "Apocalypto",
+  "director": "Mel Gibson",
+  "year": 2006,
+  "rating": 7.8,
+  "synopsis": "As the Mayan kingdom faces its decline, a young man is taken on a perilous journey to a world ruled by fear and oppression.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/5_-_e9eDn6E_-_Apocalypto_20.jpg",
+  "big_url": "https://d294800yterbp.cloudfront.net/Imgur Album  /5 - e9eDn6E - Apocalypto.jpg5 - e9eDn6E - Apocalypto.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f3fd3e599088f6fcf727"
+  },
+  "name": "Back to the Future",
+  "director": "Robert Zemeckis",
+  "year": 1985,
+  "rating": 8.5,
+  "synopsis": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/6_-_bVxmgtd_-_Back_to_the_Future_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f4483e599088f6fcf728"
+  },
+  "name": "National Lampoon's Animal House",
+  "director": "John Landis",
+  "year": 1978,
+  "rating": 7.4,
+  "synopsis": "At a 1962 college, Dean Vernon Wormer is determined to expel the entire Delta Tau Chi Fraternity, but those troublemakers have other plans for him.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/3_-_b56i1W5_-_Animal_House_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f4b53e599088f6fcf72a"
+  },
+  "director": "Milos Forman",
+  "year": 1984,
+  "rating": 8.4,
+  "synopsis": "The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was deeply jealous of Mozart's talent and claimed to have murdered him.",
+  "image_url": " https://d294800yterbp.cloudfront.net/downslaced images/2_-_jXqNIqh_-_Amadeus_20.jpg",
+  "name": "Amadeus"
+},
+{
+  "_id": {
+    "$oid": "64d6f4cf3e599088f6fcf72b"
+  },
+  "name": "Alien 1979",
+  "director": "Ridley Scott",
+  "rating": 8.5,
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced%20images/1_alien.jpg",
+  "year": 1979,
+  "synopsis": "The crew of a commercial spacecraft encounters a deadly lifeform after investigating an unknown transmission."
+},
+{
+  "_id": {
+    "$oid": "64d6f57e3e599088f6fcf72d"
+  },
+  "name": "Blade Runner",
+  "director": "Ridley Scott",
+  "year": 1982,
+  "rating": 8.1,
+  "synopsis": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/11_-_nUgFIp2_-_Blade_Runner_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f6033e599088f6fcf72e"
+  },
+  "name": "The Bodyguard",
+  "director": "Mick Jackson",
+  "year": 1992,
+  "rating": 6.3,
+  "synopsis": "A former Secret Service agent takes on the job of bodyguard to an R&B singer, whose lifestyle is most unlike a President's.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/12_-_fY2d1Ld_-_The_Bodyguard_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f6983e599088f6fcf72f"
+  },
+  "name": "Brazil",
+  "director": "Terry Gilliam",
+  "year": 1985,
+  "rating": 7.9,
+  "synopsis": "A bureaucrat in a dystopic society becomes an enemy of the state as he pursues the woman of his dreams.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/13_-_am9DN7O_-_Brazil_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f6f33e599088f6fcf730"
+  },
+  "name": "Candyman",
+  "director": "Bernard Rose",
+  "year": 1992,
+  "rating": 6.7,
+  "synopsis": "The Candyman, a murderous soul with a hook for a hand, is accidentally summoned to reality by a skeptic grad student researching the monster's myth.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/14_-_LvCuKGs_-_Candyman_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f7593e599088f6fcf731"
+  },
+  "name": "Dark City",
+  "director": "Alex Proyas",
+  "year": 1998,
+  "rating": 7.6,
+  "synopsis": "A man struggles with memories of his past, which include a wife he cannot remember and a nightmarish world no one else ever seems to wake up from.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/15_-_zrGUhmS_-_Dark_City_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f7b73e599088f6fcf732"
+  },
+  "name": "Diamonds Are Forever",
+  "director": "Guy Hamilton",
+  "year": 1971,
+  "rating": 6.5,
+  "synopsis": "A diamond smuggling investigation leads James Bond to Las Vegas, where he uncovers an evil plot involving a rich business tycoon.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/16_-_P01BboK_-_Diamonds_Are_Forever_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f8163e599088f6fcf733"
+  },
+  "name": "Dirty Harry",
+  "director": "Don Siegel - Clint Eastwood",
+  "year": 1971,
+  "rating": 7.7,
+  "synopsis": "When a man calling himself, the Scorpio Killer, menaces San Francisco, tough-as-nails Police Inspector ,Dirty, Harry Callahan is assigned to track down the crazed psychopath.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/17_-_m3QJSCi_-_Dirty_Harry_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f8b53e599088f6fcf734"
+  },
+  "name": "Dogma",
+  "director": "Kevin Smith",
+  "year": 1999,
+  "rating": 7.3,
+  "synopsis": "An abortion clinic worker with a special heritage is called upon to save the existence of humanity from being negated by two renegade angels trying to exploit a loop-hole and reenter Heaven.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/19_-_0IKg0lZ_-_Dogma_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f9103e599088f6fcf735"
+  },
+  "name": "Drag Me to Hell",
+  "director": "Sam Raimi",
+  "year": 2009,
+  "rating": 6.6,
+  "synopsis": "A loan officer who evicts an old woman from her home finds herself the recipient of a supernatural curse. Desperate, she turns to a seer to try and save her soul, while evil forces work to push her to a breaking point.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/20_-_e74z2H6_-_Drag_Me_to_Hell_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f96e3e599088f6fcf736"
+  },
+  "name": "Enemy",
+  "director": "Denis Villeneuve",
+  "year": 2013,
+  "rating": 6.9,
+  "synopsis": "A man seeks out his exact look-alike after spotting him in a movie.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/21_-_JcVJZXV_-_Enemy_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6f9b23e599088f6fcf737"
+  },
+  "name": "Enter the Dragon",
+  "director": "Robert Clouse",
+  "year": 1973,
+  "rating": 7.6,
+  "synopsis": "A Shaolin martial artist travels to an island fortress to spy on an opium lord - who is also a former monk from his temple - under the guise of attending a fighting tournament.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/22_-_PumYVWK_-_Enter_the_Dragon_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6fa313e599088f6fcf739"
+  },
+  "name": "The Exorcist",
+  "director": "William Friedkin",
+  "year": 1973,
+  "rating": 8.1,
+  "synopsis": "When a teenage girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her daughter.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/24_-_aPQrnRS_-_The_Exoricist_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d6faa53e599088f6fcf73a"
+  },
+  "name": "Escape from New York",
+  "director": "John Carpenter",
+  "year": 1981,
+  "rating": 7.1,
+  "synopsis": "In 1997, when the U.S. president crashes into Manhattan, now a giant maximum security prison, a convicted bank robber is sent in to rescue him.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/23_-_SqgHMGf_-_Escape_from_New_York_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d9248f287de021ca4eb0d1"
+  },
+  "name": "Fear and Loathing in Las Vegas",
+  "director": "Terry Gilliam",
+  "year": 1998,
+  "rating": 7.5,
+  "synopsis": "An oddball journalist and his psychopathic lawyer travel to Las Vegas for a series of psychedelic escapades.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/25_-_UHt95S1_-_Fear_and_Loathing_in_Las_Vegas_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92512287de021ca4eb0d2"
+  },
+  "name": "The Fog",
+  "director": "John Carpenter",
+  "year": 1980,
+  "rating": 6.8,
+  "synopsis": "An unearthly fog rolls into a small coastal town exactly 100 years after a ship mysteriously sank in its waters.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/26_-_m9KoSH1_-_The_Fog_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d925ecc6773abdd0e5719f"
+  },
+  "name": "The Frighteners",
+  "director": "Peter Jackson",
+  "year": 1996,
+  "rating": 7.1,
+  "synopsis": "After a tragic car accident that kills his wife, a man discovers he can communicate with the dead, and he uses that gift to con people. However, when a demonic spirit appears, he may be the only one who can stop it from killing the living and the dead.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/27_-_G3YDPyC_-_The_Frightners_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92657c6773abdd0e571a0"
+  },
+  "name": "The Godfather",
+  "director": "Francis Ford Coppola",
+  "year": 1972,
+  "rating": 9.2,
+  "synopsis": "Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/28_-_1OfAAe8_-_The_Godfather_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d926b7c6773abdd0e571a1"
+  },
+  "name": "The Goonies",
+  "director": "Richard Donner",
+  "year": 1985,
+  "rating": 7.7,
+  "synopsis": "A group of young misfits called The Goonies discover an ancient map and set out on an adventure to find a legendary pirate's long-lost treasure.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/29_-_FcrtVMz_-_The_Goonies_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d9270fc6773abdd0e571a2"
+  },
+  "name": "Gremlins",
+  "director": "Joe Dante",
+  "year": 1984,
+  "rating": 7.3,
+  "synopsis": "A young man inadvertently breaks three important rules concerning his new pet and unleashes a horde of malevolently mischievous monsters on a small town.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/31_-_7kbG20f_-_Gremlins_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92777c6773abdd0e571a3"
+  },
+  "name": "Halloween II",
+  "director": "Rick Rosenthal",
+  "year": 1981,
+  "rating": 6.5,
+  "synopsis": "While Dr. Loomis hunts for Michael Myers, a traumatized Laurie is rushed to Haddonfield Memorial Hospital, and The Shape is not far behind her.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/32_-_MPflOmJ_-_Halloween_II_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d927c6c6773abdd0e571a4"
+  },
+  "name": "Indiana Jones and the Raiders of the Lost Ark",
+  "director": "Steven Spielberg",
+  "year": 1981,
+  "rating": 8.4,
+  "synopsis": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis can obtain its awesome powers.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/34_-_IOQYfHk_-_Raiders_of_the_Lost_Ark_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92815c6773abdd0e571a5"
+  },
+  "name": "Inglourious Basterds",
+  "director": "Quentin Tarantino",
+  "year": 2009,
+  "rating": 8.3,
+  "synopsis": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/37_-_v64HGs4_-_Inglourious_Basterds_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d9285cc6773abdd0e571a6"
+  },
+  "name": "Inherent Vice",
+  "director": "Paul Thomas Anderson",
+  "year": 2014,
+  "rating": 6.6,
+  "synopsis": "In 1970, drug-fueled Los Angeles private investigator Larry Doc Sportello investigates the disappearance of a former girlfriend.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/38_-_TkHRSMK_-_Inherent_Vice_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d928adc6773abdd0e571a7"
+  },
+  "name": "https://d294800yterbp.cloudfront.net/downslaced images/48_-_3krcVyf_-_Mad_Max_Beyond_Thunderdome_20.jpg",
+  "director": "Christopher Nolan",
+  "year": 2014,
+  "rating": 8.7,
+  "synopsis": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/39_-_sjpxtef_-_Interstellar_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d928e5c6773abdd0e571a8"
+  },
+  "name": "It Follows",
+  "director": "David Robert Mitchell",
+  "year": 2014,
+  "rating": 6.8,
+  "synopsis": "A young woman is followed by an unknown supernatural force after a sexual encounter.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/40_-_8XazOPT_-_It_Follows_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92933c6773abdd0e571a9"
+  },
+  "name": "Jaws",
+  "director": "Steven Spielberg",
+  "year": 1975,
+  "rating": 8.1,
+  "synopsis": "When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/41_-_POJVloK_-_Jaws_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d9298ec6773abdd0e571aa"
+  },
+  "name": "Last Action Hero",
+  "director": "John McTiernan",
+  "year": 1993,
+  "rating": 6.5,
+  "synopsis": "With the help of a magic ticket, a young movie fan is transported into the fictional world of his favorite action movie character.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/44_-_jXlhHNW_-_Last_Action_Hero_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d929e0c6773abdd0e571ab"
+  },
+  "name": "Legend",
+  "director": "Ridley Scott",
+  "year": 1985,
+  "rating": 6.3,
+  "synopsis": "A young man must stop the Lord of Darkness from destroying daylight and marrying the woman he loves.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/45_-_oZiza5t_-_Legend_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92a26c6773abdd0e571ac"
+  },
+  "name": "Léon: The Professional",
+  "director": "Luc Besson",
+  "year": 1994,
+  "rating": 8.5,
+  "synopsis": "12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/46_-_0pjLMgz_-_Leon_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92a75c6773abdd0e571ad"
+  },
+  "name": "Mad Max",
+  "director": "George Miller",
+  "year": 1979,
+  "rating": 6.8,
+  "synopsis": "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/48_-_3krcVyf_-_Mad_Max_Beyond_Thunderdome_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92ad5c6773abdd0e571ae"
+  },
+  "name": "Masters of the Universe",
+  "director": "Gary Goddard",
+  "year": 1987,
+  "rating": 5.3,
+  "synopsis": "The heroic warrior He-Man battles against the evil lord Skeletor and his armies of darkness for control of Castle Grayskull.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/49_-_c6AAZ1c_-_Masters_of_the_Universe_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92b48c6773abdd0e571af"
+  },
+  "name": "Moonraker",
+  "director": "Lewis Gilbert",
+  "year": 1979,
+  "rating": 6.2,
+  "synopsis": "James Bond investigates the mid-air theft of a space shuttle, and discovers a plot to commit global genocide.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/50_-_IDPIj3V_-_Moonraker_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92b82c6773abdd0e571b0"
+  },
+  "name": "Nightcrawler",
+  "director": "Dan Gilroy",
+  "year": 2014,
+  "rating": 7.8,
+  "synopsis": "When Louis Bloom, a con man desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/53_-_BqRaWOY_-_Nightcrawler_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92c26c6773abdd0e571b1"
+  },
+  "name": "A Nightmare on Elm Street",
+  "director": "West Craven",
+  "year": 1984,
+  "rating": 7.4,
+  "synopsis": "Teenager Nancy Thompson must uncover the dark truth concealed by her parents after she and her friends become targets of the spirit of a serial killer with a bladed glove in their dreams, in which if they die, it kills them in real life.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/54_-_uxEuifC_-_A_Nightmare_on_Elm_Street_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92c7ec6773abdd0e571b2"
+  },
+  "name": "Poltergeist",
+  "director": "Tobe Hooper",
+  "year": 1982,
+  "rating": 7.3,
+  "synopsis": "A family's home is haunted by a host of demonic ghosts.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/59_-_rXj26tr_-_Poltergeist_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92cdbc6773abdd0e571b3"
+  },
+  "name": "Pulp Fiction",
+  "director": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+  "year": 1994,
+  "rating": 8.9,
+  "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/60_-_N44Qk3w_-_Pulp_Fiction_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92d82c6773abdd0e571b4"
+  },
+  "name": "Raging Bull",
+  "director": "Martin Scorsese",
+  "year": 1980,
+  "rating": 8.1,
+  "synopsis": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/61_-_ZivKGPV_-_Raging_Bull_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92dd6c6773abdd0e571b5"
+  },
+  "name": "The Return of the Living Dead",
+  "director": "Dan O'Bannon",
+  "year": 1985,
+  "rating": 7.3,
+  "synopsis": "When two bumbling employees at a medical supply warehouse accidentally release a deadly gas into the air, the vapors cause the dead to rise again as zombies.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/62_-_zyNR7vB_-_Return_of_the_Living_Dead_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92e26c6773abdd0e571b6"
+  },
+  "name": "RoboCop",
+  "director": "Paul Verhoeven",
+  "year": 1987,
+  "rating": 7.6,
+  "synopsis": "In a dystopic and crime-ridden Detroit, a terminally wounded cop returns to the force as a powerful cyborg haunted by submerged memories.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/64_-_1XhztKy_-_Robocop_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92e81c6773abdd0e571b7"
+  },
+  "name": "The Spy Who Loved Me",
+  "director": "Lewis Gilbert",
+  "year": 1977,
+  "rating": 7,
+  "synopsis": "James Bond investigates the hijacking of British and Russian submarines carrying nuclear warheads, with the help of a K.G.B. agent whose lover he killed.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/65_-_fz0RDkY_-_The_Spy_Who_Loved_Me_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92edfc6773abdd0e571b8"
+  },
+  "name": "Star Wars: Episode I - The Phantom Menace",
+  "director": "George Lucas",
+  "year": 1999,
+  "rating": 6.5,
+  "synopsis": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/67_-_SAFb389_-_Star_Wars_-_Episode_I_The_Phantom_Menace_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92f31c6773abdd0e571b9"
+  },
+  "name": "Star Wars: Episode II - Attack of the Clones",
+  "director": "George Lucas",
+  "year": 2002,
+  "rating": 6.6,
+  "synopsis": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi discovers a secret clone army crafted for the Jedi.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/68_-_HToclNq_-_Star_Wars_-_Episode_II_Attack_of_the_Clones_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d92f94c6773abdd0e571ba"
+  },
+  "name": "Star Wars: Episode III - Revenge of the Sith",
+  "director": "George Lucas",
+  "year": 2005,
+  "rating": 7.6,
+  "synopsis": "Three years into the Clone Wars, Obi-Wan pursues a new threat, while Anakin is lured by Chancellor Palpatine into a sinister plot to rule the galaxy.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/69_-_xjiIIUl_-_Star_Wars_-_Episode_III_Revenge_of_the_Sith_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d9303fc6773abdd0e571bb"
+  },
+  "name": "Star Wars: Episode IV - A New Hope",
+  "director": "George Lucas",
+  "year": 1977,
+  "rating": 8.6,
+  "synopsis": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/70_-_WtrS7dr_-_Star_Wars_-_Episode_IV_A_New_Hope_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d9309bc6773abdd0e571bc"
+  },
+  "name": "Star Wars: Episode V - The Empire Strikes Back",
+  "director": "Irvin Kershner",
+  "year": 1980,
+  "rating": 8.2,
+  "synopsis": "After the Rebels are overpowered by the Empire, Luke Skywalker begins his Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/71_-_Vqy9bjr_-_Star_Wars_-_Episode_V_The_Empire_Strikes_Back_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d930f8c6773abdd0e571bd"
+  },
+  "name": "The Ten Commandments",
+  "director": "Cecil B. DeMille",
+  "year": 1956,
+  "rating": 7.9,
+  "synopsis": "Moses, raised as a prince of Egypt in the Pharaoh's household, learns of his true heritage as a Hebrew and his divine mission as the deliverer of his people from slavery.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/73_-_qtzWVf2_-_The_Ten_Commandments_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d93164c6773abdd0e571be"
+  },
+  "name": "The Thing",
+  "director": "John Carpenter",
+  "year": 1982,
+  "rating": 8.4,
+  "synopsis": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/74_-_3rdwc1j_-_The_Thing_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d9321ac6773abdd0e571bf"
+  },
+  "name": "THX 1138",
+  "director": "George Lucas",
+  "year": 1971,
+  "rating": 6.7,
+  "synopsis": "In the 25th century, a time when people have designations instead of names, a man, THX 1138, and a woman, LUH 3417, rebel against their rigidly-controlled society.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/75_-_zzAB2YV_-_THX_1138_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d93263c6773abdd0e571c0"
+  },
+  "name": "Tremors",
+  "director": "Ron Underwood",
+  "year": 1990,
+  "rating": 7.1,
+  "synopsis": "Natives of a small isolated town defend themselves against strange underground creatures which are killing them one by one.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/76_-_iU5rfeZ_-_Tremors_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d932ffc6773abdd0e571c1"
+  },
+  "name": "National Lampoon's Vacation",
+  "director": "Harold Ramis",
+  "year": 1983,
+  "rating": 7.3,
+  "synopsis": "The Griswold family's cross-country drive to the Walley World theme park proves to be much more arduous than they ever anticipated.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/77_-_uEABOyP_-_Vacation_20.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d933f2c6773abdd0e571c2"
+  },
+  "name": "Oppenheimer",
+  "director": "Christopher Nolan",
+  "year": 2023,
+  "rating": 8.6,
+  "synopsis": "The story of American scientist, J. Robert Oppenheimer, and his role in the development of the atomic bomb.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/83_oppen.jpg",
+  "big_url": "https://d294800yterbp.cloudfront.net/Imgur Album  /83_oppen.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d9346ec6773abdd0e571c3"
+  },
+  "name": "Arrival",
+  "director": "Denis Villeneuve",
+  "year": 2016,
+  "rating": 7.9,
+  "synopsis": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/81-arrival_30.jpeg",
+  "big_url": "https://d294800yterbp.cloudfront.net/Imgur Album  /81-arrival.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d93521c6773abdd0e571c5"
+  },
+  "name": "Blade Runner 2049",
+  "director": "Denis Villeneuve",
+  "year": 2017,
+  "rating": 8,
+  "synopsis": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+  "image_url": "https://d294800yterbp.cloudfront.net/downslaced images/82_blade_1_30.jpeg",
+  "big_url": "https://d294800yterbp.cloudfront.net/Imgur Album  /82_blade.jpeg"
+}]
