@@ -195,4 +195,8 @@ p{
         text-align: left;
         margin-left: 6%;
     }
+
+    .description {
+        opacity: 1; /* Initially hide the description */
+    }
 }
