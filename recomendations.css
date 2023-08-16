@@ -18,6 +18,13 @@ h3{
     font-size: 28px;
     font-family: 'Audrey 1.0', sans-serif;
 }
+.match-percentage {
+    color: rgb(1, 187, 1);
+}
+
+.match-percentage2 {
+    color: #dcd158;
+}
 
 h2{
     color: #EEEEEE;
