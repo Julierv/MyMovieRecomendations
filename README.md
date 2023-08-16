@@ -1,2 +1,2 @@
-# Caia_Compares
-A website where you can compare yourself to other people using metrics.
+# My Movie Recomendations
+A website where you will get my recomendation of films to watch based on the movie you select.
