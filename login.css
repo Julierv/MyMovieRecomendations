@@ -1,0 +1,228 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-color:#000000;
+}
+
+h1{
+    color: #EEEEEE;
+    font-size: 26px;
+    font-family: 'Audrey 1.0', sans-serif;
+    margin-top: 21vh;
+    margin-bottom: 6vh;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    color: #EEEEEE;
+    font-size: 26px;
+    font-family: 'Audrey 1.0', sans-serif;
+    margin-bottom: 7vh;
+    width: 100%;
+    text-align: center;
+}
+
+h3{
+    color: #EEEEEE;
+    font-size: 32px;
+    font-family: 'Audrey 1.0', sans-serif;
+    margin-top: 11vh;
+    margin-bottom: 4vh;
+    width: 100%;
+    text-align: center;
+}
+
+.social-icon {
+    margin-top: 2vh;
+    width: 100px;
+    height: 100px; 
+    background-color: white;
+    border-radius: 100px;
+    align-self: center;
+}
+
+.social-icon:hover{
+    background-color: #FDB827;
+}
+
+.vl {
+    position: fixed;
+    left: 50%;
+    top: 11vh;
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 78vh;
+}
+.two_column{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    height: 100vh;
+}
+.sign_up_column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.sign_in_column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+input {
+    align-self: center;
+    width: 60%;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0.1;
+    background-color: rgba(45, 45, 45, 0.4);
+    border-radius: 5px;
+    color: white;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+label {
+    color: #EEEEEE;
+    font-size: 17px;
+    font-family: 'Audrey 1.0', sans-serif;
+    width: 25%;
+    text-align: right;
+}
+
+input {
+    color: #EEEEEE;
+    width: 60%;
+    font-size: 17px;
+    font-family: 'Audrey 1.0', sans-serif;
+}
+.social-icon-size {
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (max-width: 980px) {
+    h1{
+        color: #EEEEEE;
+        font-size: 22px;
+    }
+
+    h3{
+        font-size: 26px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    label {
+        font-size: 15px;
+        width: 29%;
+    }
+    
+    input {
+        width: 55%;
+        font-size: 15px;
+    }
+
+    .social-icon {
+        margin-top: 2vh;
+        width: 80px;
+        height: 80px; 
+        border-radius: 80px;
+    }
+
+    .social-icon-size {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1{
+        color: #EEEEEE;
+        margin-top: 8vh;
+        font-size: 22px;
+        margin-bottom: 5vh;
+    }
+
+    h3{
+        margin-top: 0;
+        font-size: 26px;
+        margin-bottom: 4vh;
+    }
+
+    h2{
+        font-size: 22px;
+        margin-bottom: 5vh;
+    }
+
+    label {
+        font-size: 15px;
+        width: 29%;
+    }
+    
+    input {
+        width: 55%;
+        font-size: 15px;
+    }
+
+    .social-icon {
+        margin-top: 2vh;
+        width: 60px;
+        height: 60px; 
+        border-radius: 60px;
+        align-self: center;
+    }
+
+    .two_column{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; /* Set flex items to stack vertically */
+        width: 100%;
+        height: 100vh;
+    }
+
+    .vl {
+        width: 90%;
+        margin-left: 5%;
+        height: 1px; /* Adjust as needed */
+        background-color: rgb(255, 255, 255); /* Line color */
+        position: absolute;
+        top: 48%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .sign_up_column{
+        width: 100%;
+    }
+    .sign_in_column{
+        width: 100%;
+    }
+
+    .input-container {
+        gap: 18px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .social-icon-size {
+        height: 60px;
+        width: 60px;
+    }
+}
+
