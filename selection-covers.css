@@ -200,7 +200,6 @@ p{
         opacity: 1; /* Initially hide the description */
     }
     .next-button {
-        display: none;
         position: absolute;
         top: 0px;
         right: 6%;
