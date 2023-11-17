@@ -4,9 +4,6 @@
     <title>Recommendations</title>
     <link rel="stylesheet" href="recomendations.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        /* Add your styles here */
-    </style>
 </head>
 <body>
     <button class="next-button" id="nextButton" onclick="window.location.href='selection.html';">return</button>
@@ -29,15 +26,17 @@
             const moviesParam = urlParams.get('movies');
     
             try {
+                // fetch items 
                 const response = await fetch('http://ec2-107-21-158-147.compute-1.amazonaws.com:3004/api/getRecomendations'); // Replace with your server endpoint
                 const data = await response.json();
                 // testing
                 const selectedMovies = JSON.parse(decodeURIComponent(moviesParam));
                 i = 0;
 
+                // populate tittles 
                 const titleContainer = document.getElementById('titleContainer');
                 titleContainer.innerHTML = `<h3>For Selection:<span class="match-percentage2"> ${selectedMovies[0]}</span>, <span class="match-percentage2"> ${selectedMovies[1]}</span>, <span class="match-percentage2"> ${selectedMovies[2]}</span></h3>`;
-    
+                // populate items recomendation 
                 data.forEach(item => {
                     const itemContainer = document.createElement('div');
                     itemContainer.className = 'image-container';
@@ -74,7 +73,7 @@
                     i = i + 1
                 });
 
-                // Add event listeners after the content is loaded
+                // event listeners after the content is loaded
                 const imageContainers = document.querySelectorAll('.image-container');
                 imageContainers.forEach(container => {
                     const description = container.querySelector('.description2');

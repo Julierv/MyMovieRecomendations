@@ -35,7 +35,7 @@ h2{
 
 
 .content {
-    padding-top: 8%; /* Adjust as needed based on banner height */
+    padding-top: 8%;
 }
 
 .title-container{
@@ -87,7 +87,7 @@ h2{
     margin: 0 0px;
     border-radius: 4%;
     transition: blur 0.4s;
-    cursor: pointer; /* Add cursor pointer to indicate clickable */
+    cursor: pointer;
 }
 
 .description {
@@ -95,7 +95,7 @@ h2{
     width: 100%;
     height: auto;
     text-align: center;
-    opacity: 1; /* Initially hide the description */
+    opacity: 1;
     transition: opacity 0.4s;
     color: white;
     border-radius: 4px;
@@ -107,7 +107,7 @@ h2{
     height: 60%;
     margin-top: 5%;
     text-align: center;
-    opacity: 0; /* Initially hide the description */
+    opacity: 0;
     transition: opacity 0.4s;
     background-color:  rgb(38, 38, 38, 0.7);;
     color: rgb(255, 255, 255);
@@ -117,7 +117,7 @@ h2{
 
 .image-container:hover .image {
     filter: blur(10px);
-    border: 2px solid #F1F1F1; /* or any other color */
+    border: 2px solid #F1F1F1;
 }
 
 .image-container:hover .description2 {
@@ -147,14 +147,14 @@ h2{
 
 @media screen and (max-width: 1067px) {
     .content {
-        padding-top: 16%; /* Adjust as needed based on banner height */
+        padding-top: 16%; /* adjust banner height */
     }
 
 }
 
 @media screen and (max-width: 649px) {
     .content {
-        padding-top: 20%; /* Adjust as needed based on banner height */
+        padding-top: 20%;
     }
     .next-button {
         top: 0%;
@@ -164,7 +164,7 @@ h2{
 
 @media screen and (max-width: 480px) {
     .content {
-        padding-top: 56%; /* Adjust as needed based on banner height */
+        padding-top: 56%; 
     }
     .next-button {
         top: 0%;
@@ -177,8 +177,6 @@ h2{
     }
 
     .next-button {
-        background-color: #FDB827;
-        color: white;
         padding: 6% 6%;
         border-radius: 6px;
     }

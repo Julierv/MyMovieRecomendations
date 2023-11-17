@@ -43,7 +43,7 @@
             }
 
     
-            // function to fetch and populate items 
+            // fetch and populate items 
             async function fetchData() {
                 try {
                     const response = await fetch('http://ec2-107-21-158-147.compute-1.amazonaws.com:3004/api/getRandomItems');
@@ -114,13 +114,11 @@
         });
 
         nextButton.addEventListener('click', () => {
-            // Create an array of selected movie titles
+            // array of selected movie titles
             const selectedMovieTitles = selectedImages.map(image => image.alt);
-
-            // Serialize the array to JSON
             const selectedMoviesJSON = JSON.stringify(selectedMovieTitles);
 
-            // Redirect to recomendation.html with the selected movies as a query parameter.
+            // redirect to recomendation.html with the selected movies as a query parameter.
             window.location.href = 'recomendation.html?movies=' + encodeURIComponent(selectedMoviesJSON);
         });
     </script>
@@ -130,12 +128,10 @@
 
         window.addEventListener('scroll', () => {
             const scrollPosition = window.scrollY;
-            const maxScroll = 100; // Adjust the scroll threshold as needed
-
-            // Calculate opacity based on scroll position
+            const maxScroll = 100;
             const opacity = Math.min(1, scrollPosition / maxScroll);
 
-            // Set the background color with adjusted opacity
+            // adjusted opacity when scrolling down
             banner.style.backgroundColor = `rgba(0, 0, 0, 0.9)`;
         });
     </script>
