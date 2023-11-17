@@ -27,7 +27,7 @@ h2{
 h3{
     color: #EEEEEE;
     font-size: 32px;
-    font-family: 'Audrey 1.0', sans-serif;
+    font-family: 'Audrey 2.0', sans-serif;
     margin-top: 11vh;
     margin-bottom: 4vh;
     width: 100%;
@@ -97,7 +97,7 @@ input {
 label {
     color: #EEEEEE;
     font-size: 17px;
-    font-family: 'Audrey 1.0', sans-serif;
+    font-family: 'Audrey 2.0', sans-serif;
     width: 25%;
     text-align: right;
 }
@@ -106,11 +106,16 @@ input {
     color: #EEEEEE;
     width: 60%;
     font-size: 17px;
-    font-family: 'Audrey 1.0', sans-serif;
+    font-family: 'Audrey 2.0', sans-serif;
 }
 .social-icon-size {
     height: 100px;
     width: 100px;
+}
+
+@font-face {
+    font-family: 'Audrey 2.0';
+    src: url('fonts/Audrey 1.0/Audrey-Normal.otf') format('woff2');
 }
 
 @media screen and (max-width: 980px) {
