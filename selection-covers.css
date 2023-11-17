@@ -5,7 +5,7 @@ body {
     background-color:#000000;
 }
 .content {
-    padding-top: 82px; /* Adjust as needed based on banner height */
+    padding-top: 82px;
 }
 
 .button-container {
@@ -22,7 +22,7 @@ body {
     border-radius: 6px;
     border: none;
     cursor: pointer;
-    animation: blink 1.5s infinite; /* Add blinking animation */
+    animation: blink 1.5s infinite;
     font-family: 'Audrey 1.0', sans-serif;
 }
 
@@ -55,15 +55,15 @@ body {
     margin: 0 0px;
     border-radius: 4%;
     transition: transform 0.3s;
-    cursor: pointer; /* Add cursor pointer to indicate clickable */
+    cursor: pointer;
 }
 .selected {
     transform: translateY(-12px);
-    border: 3px solid #FDB827; /* or any other color */
+    border: 3px solid #FDB827;
 }
 
 .selected + .description {
-    opacity: 1; /* Show description when image is selected */
+    opacity: 1;
     transform: translateY(-0px);
     background-color: #FDB827;
     border-top: 0px;
@@ -74,12 +74,12 @@ body {
     position: absolute;
     width: 100%;
     text-align: center;
-    opacity: 0.9; /* Initially hide the description */
+    opacity: 0.9; /* initially hide the description */
     transition: opacity 0.4s;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 4px;
-    bottom: 0; /* Position the description at the bottom */
+    bottom: 0;
 }
 
 
@@ -88,7 +88,7 @@ body {
 }
 
 .image-container:hover .description {
-    opacity: 1; /* Show the description on hover */
+    opacity: 1; /* show the description on hover */
     font-size: 50px;
 }
 
@@ -143,8 +143,8 @@ p{
 }
 
 .sign-in-text a {
-    color: #068FFF; /* Color for the link text */
-    text-decoration: underline; /* Underline the link text */
+    color: #068FFF; 
+    text-decoration: underline;
 }
 
 .title-box{
@@ -177,7 +177,6 @@ p{
 @font-face {
     font-family: 'Audrey 1.0';
     src: url('fonts/Audrey 1.0/Audrey-Normal.otf') format('woff2');
-    /* Add more font properties if needed */
   }
 
 @keyframes blink {
@@ -197,19 +196,13 @@ p{
     }
 
     .description {
-        opacity: 1; /* Initially hide the description */
+        opacity: 1;
     }
     .next-button {
         position: absolute;
         top: 0px;
         right: 6%;
-        background-color: #FDB827;
-        color: white;
         padding: 6% 6%;
-        border-radius: 6px;
-        border: none;
-        cursor: pointer;
-        animation: blink 1.5s infinite; /* Add blinking animation */
-        font-family: 'Audrey 1.0', sans-serif;
     }
+    
 }
