@@ -35,7 +35,6 @@ p{
 }
 
 .sign-in-text {
-    margin-top: vh;
     font-size: 16px;
 }
 
@@ -71,7 +70,7 @@ p{
 
 @font-face {
     font-family: 'Audrey 1.0';
-    src: url('Audrey 1.0/Audrey-Normal.otf') format('woff2');
+    src: url('fonts/Audrey 1.0/Audrey-Normal.otf') format('woff2');
 }
 
 @media screen and (max-width: 480px) {

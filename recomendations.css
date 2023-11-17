@@ -46,16 +46,17 @@ h2{
 }
 
 .next-button {
-    position: absolute;
-    top: 0px;
+    z-index: 1;
+    font-size: 23px;
+    position: fixed;
+    top: 94%;
     right: 0%;
     background-color: #FDB827;
     color: white;
-    padding: 1.37% 2%;
+    padding: 1% 1.5%;
     border-radius: 6px;
     border: none;
     cursor: pointer;
-    animation: blink 1.5s infinite; /* Add blinking animation */
     font-family: 'Audrey 1.0', sans-serif;
 }
 
@@ -141,7 +142,7 @@ h2{
 
 @font-face {
     font-family: 'Audrey 1.0';
-    src: url('Audrey 1.0/Audrey-Normal.otf') format('woff2');
+    src: url('fonts/Audrey 1.0/Audrey-Normal.otf') format('woff2');
 }
 
 @media screen and (max-width: 1067px) {
@@ -155,6 +156,9 @@ h2{
     .content {
         padding-top: 20%; /* Adjust as needed based on banner height */
     }
+    .next-button {
+        top: 0%;
+    }
 
 }
 
@@ -162,7 +166,8 @@ h2{
     .content {
         padding-top: 56%; /* Adjust as needed based on banner height */
     }
-    .image-container {
+    .next-button {
+        top: 0%;
     }
 
     .title-container{

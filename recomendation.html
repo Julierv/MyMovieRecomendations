@@ -5,73 +5,87 @@
     <link rel="stylesheet" href="recomendations.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-
+        /* Add your styles here */
     </style>
 </head>
 <body>
-    <button class="next-button" id="nextButton" onclick="window.location.href='recomendation.html';">Next</button>
-    <div class="title-container"> <h3>Since You Enjoyed (-------------), Try ...</h3> </div>
+    <button class="next-button" id="nextButton" onclick="window.location.href='selection.html';">return</button>
+    <div class="title-container" id="titleContainer"></div>
     <div class="content">
-        <div class="image-row">
-            <div class="image-container">
-                <img class="image" src="https://d294800yterbp.cloudfront.net/Imgur Album  /83_oppen.jpg" alt="Image 1">
-                <div class="description">
-                    <h3>Oppenheimer</h3>
-                    <h2 >Rating <span class="match-percentage2">8.9/10 </span></h2>
-                    <h2 ><span class="match-percentage">79% </span> match</h2>
-                </div>
-                <div class="description2">
-                    <h2>2023</h2>
-                    <p>Synopsis</p>
-                    <p>The story of American scientist, J. Robert Oppenheimer, and his role in the development of the atomic bomb.</p>
-                    <p>Director</p>
-                    <p>Christopher Nolan</p>
-                </div>
-            </div>
-            <div class="image-container">
-                <img class="image" src="https://d294800yterbp.cloudfront.net/Imgur Album  /82_blade.jpeg" alt="Image 1">
-                <div class="description">
-                    <h3>Blade Runner 2049</h3>
-                    <h2 >Rating <span class="match-percentage2">8.5/10 </span></h2>
-                    <h2 ><span class="match-percentage">89% </span> match</h2>
-                </div>
-                <div class="description2">
-                    <h2>2017</h2>
-                    <p>Synopsis</p>
-                    <p>Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.</p>
-                    <p>Director</p>
-                    <p>Denis Villeneuve</p>
-                </div>
-            </div>
-            <div class="image-container">
-                <img class="image" src="https://d294800yterbp.cloudfront.net/Imgur Album  /16 - P01BboK - Diamonds Are Forever.jpg" alt="Image 1">
-                <div class="description">
-                    <h3>Diamonds Are Forever</h3>
-                    <h2 >Rating <span class="match-percentage2">7.8/10 </span></h2>
-                    <h2 ><span class="match-percentage">71% </span> match</h2>
-                </div>
-                <div class="description2">
-                    <h2>1971</h2>
-                    <p>Synopsis</p>
-                    <p>A diamond smuggling investigation leads James Bond to Las Vegas, where he uncovers an evil plot involving a rich business tycoon.</p>
-                    <p>Director</p>
-                    <p>Guy Hamilton</p>
-                </div>
-            </div>
-        </div>
+        <div class="image-row" id="items-list"></div>
     </div>
-    <script>
-        const imageContainers = document.querySelectorAll('.image-container');
 
-        imageContainers.forEach(container => {
-            const description = container.querySelector('.description2');
-            
-            
-            container.addEventListener('click', () => {
-                container.classList.toggle('active');
-            });
+    <script>
+        function randomNumber(min, max) {
+            return Math.random() * (max - min) + min;
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            const itemsList = document.getElementById('items-list');
+            numb1 = randomNumber(71, 94);
+            numb2 = randomNumber(69, 96);
+            numb3 = randomNumber(61, 98);
+            const urlParams = new URLSearchParams(window.location.search);
+            const moviesParam = urlParams.get('movies');
+    
+            try {
+                const response = await fetch('http://ec2-107-21-158-147.compute-1.amazonaws.com:3004/api/getRecomendations'); // Replace with your server endpoint
+                const data = await response.json();
+                // testing
+                const selectedMovies = JSON.parse(decodeURIComponent(moviesParam));
+                i = 0;
+
+                const titleContainer = document.getElementById('titleContainer');
+                titleContainer.innerHTML = `<h3>For Selection:<span class="match-percentage2"> ${selectedMovies[0]}</span>, <span class="match-percentage2"> ${selectedMovies[1]}</span>, <span class="match-percentage2"> ${selectedMovies[2]}</span></h3>`;
+    
+                data.forEach(item => {
+                    const itemContainer = document.createElement('div');
+                    itemContainer.className = 'image-container';
+    
+                    const image = document.createElement('img');
+                    image.className = 'image';
+                    image.src = item.image_url;
+                    image.alt = item.name;
+
+    
+                    const description = document.createElement('div');
+                    description.className = 'description';
+                    description.innerHTML = `
+                        <h3>${item.name}</h3>
+                        <h2>Rating <span class="match-percentage2">${item.rating}/10</span></h2>
+                        <h2>${selectedMovies[i]}:  <span class="match-percentage">${Math.round(randomNumber(61, 98))}%</span> match</h2>
+                    `;
+    
+                    const description2 = document.createElement('div');
+                    description2.className = 'description2';
+                    description2.innerHTML = `
+                        <h2>${item.year}</h2>
+                        <p>Synopsis</p>
+                        <p>${item.synopsis}</p>
+                        <p>Director</p>
+                        <p>${item.director}</p>
+                    `;
+    
+                    itemContainer.appendChild(image);
+                    itemContainer.appendChild(description);
+                    itemContainer.appendChild(description2);
+    
+                    itemsList.appendChild(itemContainer);
+                    i = i + 1
+                });
+
+                // Add event listeners after the content is loaded
+                const imageContainers = document.querySelectorAll('.image-container');
+                imageContainers.forEach(container => {
+                    const description = container.querySelector('.description2');
+                    container.addEventListener('click', () => {
+                        container.classList.toggle('active');
+                    });
+                });
+            } catch (error) {
+                console.error(error);
+            }
         });
     </script>
-    
 </body>
 </html>
