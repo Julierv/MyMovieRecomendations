@@ -27,7 +27,7 @@
     
             try {
                 // fetch items 
-                const response = await fetch('http://ec2-107-21-158-147.compute-1.amazonaws.com:3004/api/getRecomendations'); // server endpoint
+                const response = await fetch('https://34.173.150.41:8080/api/getRecomendations'); // server endpoint
                 const data = await response.json();
                 // testing
                 const selectedMovies = JSON.parse(decodeURIComponent(moviesParam));
