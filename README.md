@@ -25,15 +25,15 @@ Contributions are welcome! If you have any improvements or new features to sugge
 
 ## Project Structure
 
-public/              | Static assets and HTML files
-server/              | Server-side code
-│   ├── modules/         | Custom modules (e.g., database connection)
-│   ├── routes/          | API routes
-│   └── server.js        | Main server file
-├── views/               | HTML views
-├── .gitignore           
-├── package.json         | NPM package configuration
-└── README.md            
+public/              | Static assets and HTML files<br><br>
+server/              | Server-side code<br><br>
+│   ├── modules/         | Custom modules (e.g., database connection)<br><br>
+│   ├── routes/          | API routes<br><br>
+│   └── server.js        | Main server file<br><br>
+├── views/               | HTML views<br><br>
+├── .gitignore           <br><br>
+├── package.json         | NPM package configuration<br><br>
+└── README.md            <br><br>
 
 # Technologies Used
 
