@@ -1,6 +1,6 @@
 # My Movie Recommendations
 
-![Header Image](header.png)
+![Header Image](header.jpeg)
 
 Welcome to the Movie Recommendation Project! This project aims to provide users with personalized movie recommendations based on their preferences. Whether you are a movie enthusiast or looking for something new to watch, this application has got you covered.
 
@@ -25,15 +25,15 @@ Contributions are welcome! If you have any improvements or new features to sugge
 
 ## Project Structure
 
-├── public/             # Static assets and HTML files
-├── server/             # Server-side code
-│   ├── modules/        # Custom modules (e.g., database connection)
-│   ├── routes/         # API routes
-│   └── server.js       # Main server file
-├── views/              # Dynamic HTML views
-├── .gitignore          # Git ignore file
-├── package.json        # NPM package configuration
-└── README.md           # Project documentation
+public/              | Static assets and HTML files
+server/              | Server-side code
+│   ├── modules/         | Custom modules (e.g., database connection)
+│   ├── routes/          | API routes
+│   └── server.js        | Main server file
+├── views/               | HTML views
+├── .gitignore           
+├── package.json         | NPM package configuration
+└── README.md            
 
 # Technologies Used
 
