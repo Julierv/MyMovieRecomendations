@@ -24,20 +24,18 @@
             numb3 = randomNumber(61, 98);
             const urlParams = new URLSearchParams(window.location.search);
             const moviesParam = urlParams.get('movies');
+            const apiData = urlParams.get('recoms');
     
             try {
-                // fetch items 
-                const response = await fetch('https://34.173.150.41:8080/api/getRecomendations'); // server endpoint
-                const data = await response.json();
-                // testing
                 const selectedMovies = JSON.parse(decodeURIComponent(moviesParam));
+                const gData = JSON.parse(decodeURIComponent(apiData));
                 i = 0;
 
                 // populate tittles 
                 const titleContainer = document.getElementById('titleContainer');
                 titleContainer.innerHTML = `<h3>For Selection:<span class="match-percentage2"> ${selectedMovies[0]}</span>, <span class="match-percentage2"> ${selectedMovies[1]}</span>, <span class="match-percentage2"> ${selectedMovies[2]}</span></h3>`;
                 // populate items recomendation 
-                data.forEach(item => {
+                gData.forEach(item => {
                     const itemContainer = document.createElement('div');
                     itemContainer.className = 'image-container';
     
