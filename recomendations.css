@@ -65,6 +65,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
     justify-content: center;
+
     gap: 7.75%;
     margin: 0%;
     height: 700px;
@@ -145,12 +146,35 @@ h2{
     src: url('fonts/Audrey 1.0/Audrey-Normal.otf') format('woff2');
 }
 
-@media screen and (max-width: 1067px) {
-    .content {
-        padding-top: 16%; /* adjust banner height */
+
+
+@media screen and (min-width: 1500px) {
+    .image-row {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,22.4vw);
+        justify-content: center;
+    
+        gap: 7.75%;
+        margin: 0%;
+        height: 52.4vw;
     }
 
+    h2{
+        font-size: 28px;
+    }
+
+    h3{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+    
+
 }
+
 
 @media screen and (max-width: 649px) {
     .content {
