@@ -47,9 +47,9 @@
             // fetch and populate items 
             async function fetchData() {
                 try {
-                    const response = await fetch('https://34.173.150.41:8080/api/getRandomItems'); //server endpoint
+                    const response = await fetch('https://34.133.7.18:8080/api/getRandomItems'); //server endpoint
                     const data = await response.json();
-                    const apiResponse = await fetch('https://34.173.150.41:8080/api/getRecomendations');
+                    const apiResponse = await fetch('https://34.133.7.18:8080/api/getRecomendations');
                     const apiData = await apiResponse.json();
     
                     const itemsList = document.getElementById('items-list');
@@ -120,7 +120,7 @@
             const selectedMovieTitles = selectedImages.map(image => image.alt);
             const selectedMoviesJSON = JSON.stringify(selectedMovieTitles);
 
-            const apiResponse = await fetch('https://34.173.150.41:8080/api/getRecomendations');
+            const apiResponse = await fetch('https://34.133.7.18:8080/api/getRecomendations');
             const apiData = await apiResponse.json();
 
             const combinedData = encodeURIComponent(selectedMoviesJSON) + '&recoms=' + encodeURIComponent(JSON.stringify(apiData));
