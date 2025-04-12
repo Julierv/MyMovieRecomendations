@@ -120,7 +120,7 @@
             const selectedMovieTitles = selectedImages.map(image => image.alt);
             const selectedMoviesJSON = JSON.stringify(selectedMovieTitles);
 
-            const apiResponse = await fetch('https://34.133.7.18:8080/api/getRecomendations');
+            const apiResponse = await fetch('https://35.196.229.17:8080/api/getRecomendations');
             const apiData = await apiResponse.json();
 
             const combinedData = encodeURIComponent(selectedMoviesJSON) + '&recoms=' + encodeURIComponent(JSON.stringify(apiData));
