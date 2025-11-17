@@ -6,84 +6,102 @@
     <link rel="icon" href="icons/ticket.gif" type="image/gif" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
     <button class="next-button" id="nextButton" onclick="window.location.href='selection.html';">return</button>
     <div class="title-container" id="titleContainer"></div>
+
     <div class="content">
         <div class="image-row" id="items-list"></div>
     </div>
 
-    <script>
-        function randomNumber(min, max) {
-            return Math.random() * (max - min) + min;
+<script>
+function randomNumber(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+    const itemsList = document.getElementById('items-list');
+    const titleContainer = document.getElementById('titleContainer');
+
+    try {
+        // 1. LOAD DATA FROM localStorage
+        const selectedIds = JSON.parse(localStorage.getItem('selectedIds')) || [];
+        const recommendations = JSON.parse(localStorage.getItem('recommendations')) || [];
+
+        // FETCH selected movie titles (because your old UI uses titles)
+        async function fetchTitle(id) {
+            const res = await fetch(`https://35.196.229.17:8080/api/getMovieById/${id}`);
+            const data = await res.json();
+            return data.name;
         }
 
-        document.addEventListener('DOMContentLoaded', async () => {
-            const itemsList = document.getElementById('items-list');
-            numb1 = randomNumber(71, 94);
-            numb2 = randomNumber(69, 96);
-            numb3 = randomNumber(61, 98);
-            const urlParams = new URLSearchParams(window.location.search);
-            const moviesParam = urlParams.get('movies');
-            const apiData = urlParams.get('recoms');
-    
-            try {
-                const selectedMovies = JSON.parse(decodeURIComponent(moviesParam));
-                const gData = JSON.parse(decodeURIComponent(apiData));
-                i = 0;
+        const selectedTitles = [];
+        for (const id of selectedIds) {
+            selectedTitles.push(await fetchTitle(id));
+        }
 
-                // populate tittles 
-                const titleContainer = document.getElementById('titleContainer');
-                titleContainer.innerHTML = `<h3>For Selection:<span class="match-percentage2"> ${selectedMovies[0]}</span>, <span class="match-percentage2"> ${selectedMovies[1]}</span>, <span class="match-percentage2"> ${selectedMovies[2]}</span></h3>`;
-                // populate items recomendation 
-                gData.forEach(item => {
-                    const itemContainer = document.createElement('div');
-                    itemContainer.className = 'image-container';
-    
-                    const image = document.createElement('img');
-                    image.className = 'image';
-                    image.src = item.image_url;
-                    image.alt = item.name;
+        // 2. POPULATE TITLES at top
+        titleContainer.innerHTML = `
+            <h3>For Selection:
+                <span class="match-percentage2">${selectedTitles[0]}</span>, 
+                <span class="match-percentage2">${selectedTitles[1]}</span>, 
+                <span class="match-percentage2">${selectedTitles[2]}</span>
+            </h3>
+        `;
 
-    
-                    const description = document.createElement('div');
-                    description.className = 'description';
-                    description.innerHTML = `
-                        <h3>${item.name}</h3>
-                        <h2>Rating <span class="match-percentage2">${item.rating}/10</span></h2>
-                        <h2>${selectedMovies[i]}:  <span class="match-percentage">${Math.round(randomNumber(61, 98))}%</span> match</h2>
-                    `;
-    
-                    const description2 = document.createElement('div');
-                    description2.className = 'description2';
-                    description2.innerHTML = `
-                        <h2>${item.year}</h2>
-                        <p>Synopsis</p>
-                        <p>${item.synopsis}</p>
-                        <p>Director</p>
-                        <p>${item.director}</p>
-                    `;
-    
-                    itemContainer.appendChild(image);
-                    itemContainer.appendChild(description);
-                    itemContainer.appendChild(description2);
-    
-                    itemsList.appendChild(itemContainer);
-                    i = i + 1
-                });
+        // 3. POPULATE RECOMMENDED MOVIES (kept exactly as before)
+        let i = 0;
+        recommendations.forEach(item => {
+            const itemContainer = document.createElement('div');
+            itemContainer.className = 'image-container';
 
-                // event listeners after the content is loaded
-                const imageContainers = document.querySelectorAll('.image-container');
-                imageContainers.forEach(container => {
-                    const description = container.querySelector('.description2');
-                    container.addEventListener('click', () => {
-                        container.classList.toggle('active');
-                    });
-                });
-            } catch (error) {
-                console.error(error);
-            }
+            const image = document.createElement('img');
+            image.className = 'image';
+            image.src = item.image_url;
+            image.alt = item.name;
+
+            const description = document.createElement('div');
+            description.className = 'description';
+            description.innerHTML = `
+                <h3>${item.name}</h3>
+                <h2>Rating <span class="match-percentage2">${item.rating}/10</span></h2>
+                <h2>${selectedTitles[i]}:  
+                    <span class="match-percentage">${Math.round(randomNumber(61, 98))}%</span> match
+                </h2>
+            `;
+
+            const description2 = document.createElement('div');
+            description2.className = 'description2';
+            description2.innerHTML = `
+                <h2>${item.year}</h2>
+                <p>Synopsis</p>
+                <p>${item.synopsis}</p>
+                <p>Director</p>
+                <p>${item.director}</p>
+            `;
+
+            itemContainer.appendChild(image);
+            itemContainer.appendChild(description);
+            itemContainer.appendChild(description2);
+
+            itemsList.appendChild(itemContainer);
+            i++;
         });
-    </script>
+
+        // 4. CLICK TO EXPAND SYNOPSIS (same UI behavior)
+        const containers = document.querySelectorAll('.image-container');
+        containers.forEach(container => {
+            container.addEventListener('click', () => {
+                container.classList.toggle('active');
+            });
+        });
+
+    } catch (error) {
+        console.error("Error:", error);
+    }
+});
+</script>
+
 </body>
 </html>
